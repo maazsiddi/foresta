@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forest Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Forest</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="hero">
+      <h2>Discover the Magic of the Forest</h2>
+      <a href="#" class="cta">Explore Now</a>
+    </section>
+
+    <section id="about">
+      <h2>About the Forest</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus nisl nec lacus aliquam, id vestibulum magna eleifend.</p>
+    </section>
+
+    <section id="gallery">
+      <h2>Photo Gallery</h2>
+      <div class="image-container">
+        <img src="image1.jpg" alt="Forest Image">
+        <img src="image2.jpg" alt="Forest Image">
+        <img src="image3.jpg" alt="Forest Image">
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Forest Website. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <style>
+    /* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #9bcad0;
+  padding: 20px;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+}
+
+nav {
+  background-color: #6ea39d;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.cta {
+  display: inline-block;
+  background-color: #6ea39d;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
+  </style>
+</body>
+</html>
+
+
